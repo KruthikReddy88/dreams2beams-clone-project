@@ -25,10 +25,12 @@ const CalculatorPage = () => {
   const [estimate, setEstimate] = useState<number | null>(null);
 
   const bangaloreWards = [
-    "Adugodi", "Agaram", "Airport", "Amrutahalli", "Ananthnagar", "Ashwath Nagar", "Austin Town",
-    "Banashankari", "Banashankari Temple", "Banaswadi", "Basavanagudi", "Bellandur", "Bengaluru South",
-    "Bommanahalli", "BTM Layout", "Byatarayanapura", "CV Raman Nagar", "Chickpet", "Cooke Town",
-    "Dasarahalli", "Devanahalli", "Domlur", "Electronic City", "Frazer Town", "Gandhi Nagar",
+    "Adugodi", "AECS Layout", "Akshayanagar", "Amrutha Hal", "Anagalapura", "Ananth Nagar", "Andrahal", "Anekal", "Anjanapura", "Annapurneshwari Nagar", "Arasanakunte", "Arekere", "Ashirvad Colony", "Ashok Nagar", "Attibele Anekal Road", "Attibele", "Attiguppe",
+    "Austin Town", "Avenue Road", "Azad Nagar", "Babusa Palya", "Bagalakunte", "Bagalur", "Bagalur Road", "Bagaluru", "Bagepal", "Baiyyappanahalli", "Balagere", "Balepet", "Ballur", "Banashankari 3rd Stage", "Banashankari", "Banasvadi", "Banaswadi", "Bangalore Central",
+    "Bangalore East", "Bangalore North", "Bangalore South", "Bangalore West", "Bannerghatta", "Bannerghatta Jigani Road", "Bannerghatta Road", "Bapujі Nagar", "Basapura", "Basavanagar", "Basavanagudi", "Basavanna Nagar", "Basaveshwara Nagar", "Battarahalli", "Begur",
+    "Begur Road", "Belatur", "Bellandur", "Bellary Road", "Bel Road", "BEML Layout", "Bengaluru", "Benniganahalli", "Benson Town", "Bhaktnarahalli", "Bhoganhal", "Bhoopasandra", "Bhovi Palya", "Bhuvaneshwari Nagar", "Bidadi", "Bidrahal", "Bikasipura", "Bikkanahal",
+    "Bilekahal", "Bileshivale", "Binny Pete", "B Narayanapura", "Bommanahal", "Bommasandra", "Bovalahal", "Brigade Road", "Brookefield", "Btm layout", "Budigere Road", "Budihal", "Byatarayanapura", "Byrathi", "CV Raman Nagar", "Chickpet", "Cooke Town", "Dasarahalli",
+    "Devanahalli", "Domlur", "Electronic City", "Frazer Town", "Gandhi Nagar",
     "Gottigere", "Hebbal", "Hennur", "Horamavu", "Hoskote", "HSR Layout", "Indiranagar",
     "Jalahalli", "JP Nagar", "Kacharakanahalli", "Kamakshipalya", "Kengeri", "Koramangala",
     "Kothanur", "KR Puram", "Kumaraswamy Layout", "Lingarajapuram", "Mahadevapura", "Mahalakshmi Layout",

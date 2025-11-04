@@ -9,11 +9,6 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { toast } from "sonner";
 import { cn } from "@/lib/utils";
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
-import 'leaflet/dist/leaflet.css';
-import L from 'leaflet';
-import iconUrl from 'leaflet/dist/images/marker-icon.png';
-import iconShadow from 'leaflet/dist/images/marker-shadow.png';
 
 const CalculatorPage = () => {
   const [areaType, setAreaType] = useState("site_area");
@@ -179,40 +174,6 @@ const CalculatorPage = () => {
                         ))}
                       </SelectContent>
                     </Select>
-
-                    {/* Map display (below dropdown) */}
-                    <div className="mt-4 border rounded-lg overflow-hidden">
-                      <MapContainer
-                        center={[12.9716, 77.5946]} // Default Bengaluru center
-                        zoom={11}
-                        style={{ height: "400px", width: "100%" }}
-                        scrollWheelZoom={false}
-                      >
-                        <TileLayer
-                          attribution='&copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors'
-                          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-                        />
-                        {location && (
-                          <Marker
-                            position={
-                              location === "whitefield"
-                                ? [12.9698, 77.7500]
-                                : location === "indiranagar"
-                                ? [12.9784, 77.6408]
-                                : location === "hsr layout"
-                                ? [12.9105, 77.6413]
-                                : location === "yelahanka"
-                                ? [13.1007, 77.5963]
-                                : [12.9716, 77.5946]
-                            }
-                          >
-                            <Popup>
-                              {location.charAt(0).toUpperCase() + location.slice(1)} selected
-                            </Popup>
-                          </Marker>
-                        )}
-                      </MapContainer>
-                    </div>
                   </div>
 
                   {/* Floors */}

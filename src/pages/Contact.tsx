@@ -171,8 +171,7 @@ const Contact = () => {
                       <Mail className="h-5 w-5 text-primary mt-1" />
                       <div>
                         <div className="font-semibold">Email</div>
-                        <div className="text-sm text-muted-foreground">info@dreams2beams.com</div>
-                        <div className="text-sm text-muted-foreground">support@dreams2beams.com</div>
+                        <div className="text-sm text-muted-foreground">dreams2beamsconstructions@gmail.com</div>
                       </div>
                     </div>
 

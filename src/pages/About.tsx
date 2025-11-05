@@ -13,7 +13,7 @@ const About = () => {
         <section className="py-20 bg-gradient-to-br from-primary/10 via-background to-accent/10">
           <div className="container mx-auto px-4">
             <div className="max-w-3xl mx-auto text-center">
-              <h1 className="text-4xl md:text-5xl font-bold mb-6">About Dreams2Beams</h1>
+              <h1 className="text-4xl md:text-5xl font-bold mb-6">About Dreams2Beams Constructions</h1>
               <p className="text-xl text-muted-foreground">
                 Building excellence through innovation, quality, and dedication
               </p>
@@ -28,7 +28,7 @@ const About = () => {
               <h2 className="text-3xl font-bold mb-6 text-center">Our Story</h2>
               <div className="prose prose-lg max-w-none text-muted-foreground">
                 <p className="mb-4">
-                  Founded with a vision to transform the construction industry, Dreams2Beams has grown from a small team of passionate builders to a leading construction company serving clients across the nation.
+                  Founded with a vision to transform the construction industry, Dreams2Beams Constructions has grown from a small team of passionate builders to a leading construction company serving clients across the nation.
                 </p>
                 <p className="mb-4">
                   Our journey began with a simple belief: that every construction project, regardless of size, deserves the same level of attention, quality, and innovation. This philosophy has guided us through over 15 years of successful projects and satisfied clients.

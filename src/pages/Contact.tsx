@@ -111,7 +111,7 @@ const Contact = () => {
                       <Input
                         id="phone"
                         type="tel"
-                        placeholder="+1 (555) 123-4567"
+                        placeholder="+91 1234567890"
                         value={formData.phone}
                         onChange={handleChange}
                         required
@@ -160,8 +160,10 @@ const Contact = () => {
                       <Phone className="h-5 w-5 text-primary mt-1" />
                       <div>
                         <div className="font-semibold">Phone</div>
-                        <div className="text-sm text-muted-foreground">+1 (555) 123-4567</div>
-                        <div className="text-sm text-muted-foreground">+1 (555) 987-6543</div>
+                        <div className="text-sm text-muted-foreground">+91 95382 67179</div>
+                        <div className="text-sm text-muted-foreground">+91 88617 20712</div>
+                        <div className="text-sm text-muted-foreground">+91 95131 26818</div>
+                        <div className="text-sm text-muted-foreground">+91 99806 97544</div>
                       </div>
                     </div>
 
@@ -178,9 +180,9 @@ const Contact = () => {
                       <MapPin className="h-5 w-5 text-primary mt-1" />
                       <div>
                         <div className="font-semibold">Office Address</div>
-                        <div className="text-sm text-muted-foreground">123 Construction Avenue</div>
-                        <div className="text-sm text-muted-foreground">Suite 500, Building A</div>
-                        <div className="text-sm text-muted-foreground">Los Angeles, CA 90001</div>
+                        <div className="text-sm text-muted-foreground">No.gh-167/c, 6th B Cross</div>
+                        <div className="text-sm text-muted-foreground">HRBR Layout Main Road, 17th Block Arakavathi Layout</div>
+                        <div className="text-sm text-muted-foreground">Geddalahalli, Bangalore-560043</div>
                       </div>
                     </div>
 
@@ -206,7 +208,7 @@ const Contact = () => {
                     </p>
                     <div className="text-sm text-muted-foreground">
                       <div className="font-semibold mb-2">Emergency Contact:</div>
-                      <div>+1 (555) 999-8888 (24/7)</div>
+                      <div>+91 95382 67179</div>
                     </div>
                   </CardContent>
                 </Card>

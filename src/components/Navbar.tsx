@@ -12,7 +12,7 @@ const Navbar = () => {
         <div className="flex h-16 items-center justify-between">
           <Link to="/" className="flex items-center space-x-2">
             <Building2 className="h-8 w-8 text-primary" />
-            <span className="text-xl font-bold">Dreams2Beams</span>
+            <span className="text-xl font-bold">Dreams2Beams Constructions</span>
           </Link>
 
           {/* Desktop Navigation */}

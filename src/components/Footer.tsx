@@ -9,7 +9,7 @@ const Footer = () => {
           <div>
             <div className="flex items-center space-x-2 mb-4">
               <Building2 className="h-6 w-6 text-primary" />
-              <span className="text-lg font-bold">Dreams2Beams</span>
+              <span className="text-lg font-bold">Dreams2Beams Constructions</span>
             </div>
             <p className="text-sm text-muted-foreground">
               Transforming construction dreams into reality with expert building services and innovative solutions.
@@ -57,15 +57,18 @@ const Footer = () => {
             <ul className="space-y-2">
               <li className="flex items-center space-x-2 text-sm text-muted-foreground">
                 <Phone className="h-4 w-4" />
-                <span>+1 (555) 123-4567</span>
+                <span>+91 95382 67179</span>
+                <span>+91 88617 20712</span>
               </li>
               <li className="flex items-center space-x-2 text-sm text-muted-foreground">
                 <Mail className="h-4 w-4" />
-                <span>info@dreams2beams.com</span>
+                <span>dreams2beamsconstructions@gmail.com</span>
               </li>
               <li className="flex items-center space-x-2 text-sm text-muted-foreground">
                 <MapPin className="h-4 w-4" />
-                <span>123 Construction Ave</span>
+                <span>No.gh-167/c, 6th B Cross</span>
+                <span>HRBR Layout Main Road, 17th Block Arakavathi Layout</span>
+                <span>Geddalahalli, Bangalore-560043</span>
               </li>
             </ul>
           </div>

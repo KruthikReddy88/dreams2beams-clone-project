@@ -28,13 +28,10 @@ const About = () => {
               <h2 className="text-3xl font-bold mb-6 text-center">Our Story</h2>
               <div className="prose prose-lg max-w-none text-muted-foreground">
                 <p className="mb-4">
-                  Founded with a vision to transform the construction industry, Dreams2Beams Constructions has grown from a small team of passionate builders to a leading construction company serving clients across the nation.
+                  D2B Constructions is a leading Construction Solution & Service Firm in Karnataka dedicated to delivering high-quality, customized homes tailored to meet the specific needs and preferences of our clients, Since a Decade. Our aims to make construction simple, transparent, and reliable. We provide Begin-to-End construction services. Like, Architect Works, Sanction Plan, Borewell Service, Excavation-Earth works, Demolition, Civil works, Centering,  Flooring Works, Electrical works, Plumbing works, Painting, Bank Loans, Event Managements.
                 </p>
                 <p className="mb-4">
-                  Our journey began with a simple belief: that every construction project, regardless of size, deserves the same level of attention, quality, and innovation. This philosophy has guided us through over 15 years of successful projects and satisfied clients.
-                </p>
-                <p>
-                  Today, we combine traditional craftsmanship with modern technology to deliver exceptional results. Our innovative cost calculator and transparent pricing have revolutionized how clients plan their construction projects.
+                  We execute projects on a turnkey basis, and provide real-time tracking, communication, quality checks, and updates on projects from day one till the handover of the keys. Our solution offers money safety to the customers, assured quality, transparency at every stage of construction, and zero tolerance for delays in the project lifecycle. 
                 </p>
               </div>
             </div>
@@ -128,7 +125,7 @@ const About = () => {
                 <div className="w-32 h-32 bg-primary/10 rounded-full mx-auto mb-4 flex items-center justify-center">
                   <Users className="h-16 w-16 text-primary" />
                 </div>
-                <h3 className="font-semibold text-lg mb-2">Construction Crew</h3>
+                <h3 className="font-semibold text-lg mb-2">Architecture Crew</h3>
                 <p className="text-sm text-muted-foreground">
                   Skilled craftsmen dedicated to bringing your vision to life with precision and care
                 </p>

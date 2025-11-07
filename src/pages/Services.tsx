@@ -146,6 +146,27 @@ const Services = () => {
           </div>
         </section>
 
+        {/* Banking Partners Section */}
+        <section className="py-20 bg-background">
+          <div className="container mx-auto px-4 text-center">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+              Our Banking Partners in Bengaluru
+            </h2>
+            <p className="text-muted-foreground mb-12 max-w-2xl mx-auto">
+              Helping customers get easy access to loans for building construction in Bangalore
+            </p>
+
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-6 items-center justify-center">
+              <img src="/images/bajajfinserv.png" alt="Bajaj Finserv" className="mx-auto h-14 object-contain" />
+              <img src="/images/basic.png" alt="BASIC" className="mx-auto h-14 object-contain" />
+              <img src="/images/godrej.png" alt="Godrej Housing Finance" className="mx-auto h-14 object-contain" />
+              <img src="/images/hdfc.png" alt="HDFC Home Loans" className="mx-auto h-14 object-contain" />
+              <img src="/images/housing.png" alt="Housing.com" className="mx-auto h-14 object-contain" />
+              <img src="/images/sbi.png" alt="SBI Home Loans" className="mx-auto h-14 object-contain" />
+            </div>
+          </div>
+        </section>
+
         {/* CTA Section */}
         <section className="py-20">
           <div className="container mx-auto px-4">

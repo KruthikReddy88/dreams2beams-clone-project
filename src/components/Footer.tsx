@@ -66,9 +66,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center space-x-2 text-sm text-muted-foreground">
                 <MapPin className="h-4 w-4" />
-                <span>No.gh-167/c, 6th B Cross</span>
-                <span>HRBR Layout Main Road, 17th Block Arakavathi Layout</span>
-                <span>Geddalahalli, Bangalore-560043</span>
+                <span>No.gh-167/c, 6th B Cross, HRBR Layout Main Road, 17th Block Arakavathi Layout, Geddalahalli, Bangalore-560043</span>
               </li>
             </ul>
           </div>

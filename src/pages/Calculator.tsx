@@ -113,7 +113,7 @@ const CalculatorPage = () => {
               </p>
             </div>
 
-            {/* <div className="grid lg:grid-cols-[200px_1fr] gap-6">
+            <div className="grid lg:grid-cols-[200px_1fr] gap-6">
               {/* Sidebar */}
               <div className="space-y-2">
                 <Button className="w-full bg-primary hover:bg-primary/90" size="lg">SITE AREA</Button>
@@ -126,7 +126,7 @@ const CalculatorPage = () => {
                 <Button className="w-full bg-primary hover:bg-primary/90" size="lg">DOORS</Button>
                 <Button className="w-full bg-primary hover:bg-primary/90" size="lg">WINDOWS</Button>
                 <Button className="w-full bg-primary hover:bg-primary/90" size="lg">PAINTING TYPE</Button>
-              </div> */}
+              </div>
 
               {/* Main Content */}
               <Card>
